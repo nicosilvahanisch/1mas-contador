@@ -22,7 +22,7 @@ _cache = {}
 _clients = []
 _current_count = 0
 _current_username = ""
-POLL_INTERVAL = 10
+POLL_INTERVAL = 3
 
 
 def fetch_followers_from_api():
