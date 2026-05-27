@@ -14,3 +14,6 @@ app = FastAPI(title="Contador Instagram API — 1+")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
+    allow_methods=["GET", "POST"],
+    allow_headers=["*"],
+)
